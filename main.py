@@ -352,7 +352,7 @@ def start(message):
     create_user_reminders_table(user.id)
     welcome_message = (
         f"Привет, {user.first_name}!\n"
-        "Я кот. Я помогу не забыть самое важное и напомню о предстоящих делах.\n"
+        "Я ReCallBot. Я помогу не забыть самое важное и напомню о предстоящих делах.\n"
         "Напиши мне /remind, чтобы создать напоминание.\n"
         "Начнём?"
     )
